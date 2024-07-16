@@ -1,6 +1,7 @@
 # https://docs.docker.com/reference/dockerfile/    READ PLEASE
-FROM  centos:7   Get OS             #Get OS
-RUN   yum  install  telnet  -y      #install telnet
+#Download  CentOS and Install telnet
+FROM  centos:7   Get OS             
+RUN   yum  install  telnet  -y      
 
 
 #dockerfile consists of 2 important things.
